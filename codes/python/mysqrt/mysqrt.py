@@ -7,4 +7,4 @@ def mysqrt(x):
    print(i)
    return s
  return s
-print(mysqrt(float(input())))
+print(mysqrt(float(input("enter the number = "))))
