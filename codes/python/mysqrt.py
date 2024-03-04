@@ -9,7 +9,6 @@ def sqroot(x):
   s_ = s
   s = 0.5*(s + x/s)
   if s == s_:
-   print(i)
    return s
  return s
 #print(f'the square root of given input is {sqroot(float(input("enter the number = ")))}')
