@@ -1,5 +1,10 @@
 def sqroot(x):
  s=1.
+ from numpy import nan
+ if x == 0:
+  return 0
+ elif x < 0:
+  return nan
  for i in range(100):
   s_ = s
   s = 0.5*(s + x/s)
